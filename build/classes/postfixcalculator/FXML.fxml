@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="postfixcalculator.Controller">
+   <children>
+      <Button fx:id="btnCalculate" layoutX="159.0" layoutY="188.0" mnemonicParsing="false" onMouseClicked="#calculate" text="calculate" />
+      <TextField fx:id="textFieldCalculator" layoutX="131.0" layoutY="152.0" />
+      <Text layoutX="108.0" layoutY="121.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter the postfix expression here" wrappingWidth="232.375" />
+      <Text layoutX="95.0" layoutY="242.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Answer:" wrappingWidth="110.13671875" />
+      <Text fx:id="txtAnswer" layoutX="108.0" layoutY="280.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+   </children>
+</AnchorPane>
